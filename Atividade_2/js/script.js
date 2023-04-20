@@ -4,6 +4,7 @@ let fib2 = 1;
 
 if (num === fib1 || num === fib2) {
   console.log("O número pertence à sequência de Fibonacci.");
+  console.write("O número pertence à sequência de Fibonacci.");
 } else {
   while (fib2 < num) {
     let temp = fib2;
@@ -11,10 +12,12 @@ if (num === fib1 || num === fib2) {
     fib1 = temp;
     if (num === fib2) {
       console.log("O número pertence à sequência de Fibonacci.");
+      document.write("O número pertence à sequência de Fibonacci.");
       break;
     }
   }
   if (num !== fib2) {
     console.log("O número não pertence à sequência de Fibonacci.");
+    console.write("O número não pertence à sequência de Fibonacci.");
   }
 }
