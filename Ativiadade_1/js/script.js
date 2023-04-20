@@ -8,3 +8,4 @@ while (k < indice) {
 }
 
 console.log(soma);
+document.write(soma);
